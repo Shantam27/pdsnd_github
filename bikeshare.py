@@ -40,7 +40,8 @@ def get_filters():
 
     while month not in Months.keys():
         month=input().lower()
-
+        if month not in Months.keys():
+            print("Please enter a valid input. Please try again\n")
 
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)

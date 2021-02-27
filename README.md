@@ -9,4 +9,8 @@ In this project, we use python to explore data related to bike share systems for
 The source code import data and answer interesting questions by computing descriptive statistics.
 The script takes a raw input to create a interactive experience to present these statistics.
 
-
+### Files used
+bikeshare.py
+chicago.csv
+new_york_city.csv
+washington.csv

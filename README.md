@@ -14,3 +14,10 @@ bikeshare.py
 chicago.csv
 new_york_city.csv
 washington.csv
+
+### Credits
+To convert seconds in hours,minutes and seconds: https://www.geeksforgeeks.org/python-program-to-convert-seconds-into-hours-minutes-and-seconds/
+To find most frequent combination in 2 dataframe columns: https://stackoverflow.com/questions/53037698/how-can-i-find-the-most-frequent-two-column-combination-in-a-dataframe-in-python
+To resolve an error reading a csv file in python: https://stackoverflow.com/questions/38336501/error-while-reading-a-csv-file-in-python-using-pandas
+Python Documentation
+Pandas Documentation

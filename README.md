@@ -21,3 +21,8 @@ To find most frequent combination in 2 dataframe columns: https://stackoverflow.
 To resolve an error reading a csv file in python: https://stackoverflow.com/questions/38336501/error-while-reading-a-csv-file-in-python-using-pandas
 Python Documentation
 Pandas Documentation
+
+### Softwares needed:
+Python 3, NumPy, and Pandas installed using Anaconda.
+A text editor like Notepad++ or Atom.
+A terminal application like Git Bash.

@@ -50,6 +50,8 @@ def get_filters():
     print("Please enter a day of the week (e.g Monday) or type 'all' if you don't want to filter on the basis of days")
     while day not in Days:
         day=input().lower()
+        if day not in Days:
+            print("Please enter a valid input. Please try again.\n")
 
 
     print('-'*70)

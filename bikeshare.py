@@ -24,6 +24,12 @@ def get_filters():
     month=""
     while city not in CITY_DATA.keys():
         city = input().lower()
+        """Handle invalid input for city"""
+
+        if city not in CITY_DATA.keys():
+            print("\nPlease enter input from the above mentioned cities\n")
+        else:
+            break
 
 
     # TO DO: get user input for month (all, january, february, ... , june)
@@ -34,7 +40,8 @@ def get_filters():
 
     while month not in Months.keys():
         month=input().lower()
-
+        if month not in Months.keys():
+            print("Please enter a valid input. Please try again\n")
 
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
@@ -43,6 +50,8 @@ def get_filters():
     print("Please enter a day of the week (e.g Monday) or type 'all' if you don't want to filter on the basis of days")
     while day not in Days:
         day=input().lower()
+        if day not in Days:
+            print("Please enter a valid input. Please try again.\n")
 
 
     print('-'*70)

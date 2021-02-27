@@ -24,6 +24,12 @@ def get_filters():
     month=""
     while city not in CITY_DATA.keys():
         city = input().lower()
+        """Handle invalid input for city"""
+
+        if city not in CITY_DATA.keys():
+            print("\nPlease enter input from the above mentioned cities\n")
+        else:
+            break
 
 
     # TO DO: get user input for month (all, january, february, ... , june)

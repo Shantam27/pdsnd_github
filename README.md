@@ -26,3 +26,7 @@ Pandas Documentation
 Python 3, NumPy, and Pandas installed using Anaconda.
 A text editor like Notepad++ or Atom.
 A terminal application like Git Bash.
+
+### Installation links for softwares:
+Git for windows - for terminal application using Git Bash: https://git-scm.com/download/win
+Anaconda for windows: https://docs.anaconda.com/anaconda/install/windows/
